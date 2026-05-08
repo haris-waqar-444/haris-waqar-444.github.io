@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Muhammad Haris Waqar — AI/ML Engineer specializing in LLMs, agents, RAG, and production ML deployments."
+    />
+    <title>Muhammad Haris Waqar — AI/ML Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=IBM+Plex+Mono:wght@400;500&family=Sora:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="ambient-glow ambient-glow--a" aria-hidden="true"></div>
+    <div class="ambient-glow ambient-glow--b" aria-hidden="true"></div>
+
+    <header class="nav-wrap">
+      <nav class="nav">
+        <a class="logo" href="#top">MH<span class="logo-dot">.</span></a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+          Menu
+        </button>
+        <ul class="nav-links" id="nav-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#work">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact" class="nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <p class="eyebrow reveal">AI/ML Engineer · Islamabad, Pakistan</p>
+        <h1 class="hero-title reveal reveal-delay-1">
+          <span class="hero-line">Muhammad</span>
+          <span class="hero-line hero-line--accent">Haris Waqar</span>
+        </h1>
+        <p class="hero-lead reveal reveal-delay-2">
+          I build production-ready AI systems: agentic RAG, speech &amp; vision models, and
+          cloud-deployed APIs—grounded in research and shipped with care.
+        </p>
+        <div class="hero-actions reveal reveal-delay-3">
+          <a class="btn btn-primary" href="#work">View selected work</a>
+          <a class="btn btn-ghost" href="./Haris_AIML_Resume.pdf" target="_blank" rel="noopener"
+            >Download CV</a
+          >
+        </div>
+        <div class="hero-meta reveal reveal-delay-4">
+          <span class="meta-pill">LLMs &amp; Agents</span>
+          <span class="meta-pill">RAG &amp; Vector DBs</span>
+          <span class="meta-pill">GCP · FastAPI</span>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="section-head reveal">
+          <span class="section-index">01</span>
+          <h2>About</h2>
+        </div>
+        <div class="about-grid reveal">
+          <p class="about-text">
+            With degrees in Software Engineering and Artificial Intelligence, I focus on deep
+            learning and machine learning systems that survive the real world. From multilingual
+            agentic retrieval to diffusion models on GPU-backed APIs, I enjoy turning research
+            into reliable products—and staying curious as the field moves fast.
+          </p>
+          <aside class="about-aside">
+            <div class="stat">
+              <span class="stat-value">MSc</span>
+              <span class="stat-label">AI · FAST‑NUCES</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">LLM Stack</span>
+              <span class="stat-label">LangChain · Gemini · OpenAI · KIMI</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">Edge &amp; Cloud</span>
+              <span class="stat-label">TFLite · GCP · Websockets</span>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="section-head reveal">
+          <span class="section-index">02</span>
+          <h2>Capabilities</h2>
+        </div>
+        <div class="skills-clusters reveal">
+          <article class="skill-cluster">
+            <h3 class="skill-cluster-title">Core</h3>
+            <ul class="skill-tags">
+              <li>Python</li>
+              <li>Algorithms &amp; Research</li>
+              <li>Git</li>
+              <li>SciPy ecosystem</li>
+            </ul>
+          </article>
+          <article class="skill-cluster">
+            <h3 class="skill-cluster-title">Models &amp; ML</h3>
+            <ul class="skill-tags">
+              <li>PyTorch</li>
+              <li>TensorFlow · TFLite</li>
+              <li>Hugging Face</li>
+              <li>YOLO / CV pipelines</li>
+              <li>Wave2Vec2 · ASR</li>
+              <li>Stable Diffusion</li>
+            </ul>
+          </article>
+          <article class="skill-cluster">
+            <h3 class="skill-cluster-title">AI Products</h3>
+            <ul class="skill-tags">
+              <li>LLMs &amp; Agents</li>
+              <li>LangChain</li>
+              <li>RAG · ChromaDB</li>
+              <li>Vector databases</li>
+              <li>FastAPI · Flask</li>
+              <li>GCP deployments</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="work" class="section section-wide">
+        <div class="section-head reveal">
+          <span class="section-index">03</span>
+          <h2>Selected projects</h2>
+          <p class="section-sub">Highlights from recent roles—research through deployment.</p>
+        </div>
+        <div class="bento">
+          <article class="card card--wide reveal">
+            <span class="card-tag">RAG · Agents</span>
+            <h3 class="card-title">Multilingual agentic Quran &amp; Hadith assistant</h3>
+            <p class="card-body">
+              End-to-end RAG chatbot spanning multiple languages, powered by ChromaDB retrieval and
+              Gemini&nbsp;2.5 Flash—designed for faithful, citation-aware answers at scale.
+            </p>
+            <ul class="card-meta">
+              <li>ChromaDB</li>
+              <li>Gemini 2.5 Flash</li>
+              <li>Agentic tooling</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <span class="card-tag">Speech · GCP</span>
+            <h3 class="card-title">Arabic Quran ASR &amp; real-time recognition</h3>
+            <p class="card-body">
+              Fine-tuned Meta Wave2Vec2 on Quranic Arabic, exposed via FastAPI on GCP—with a live
+              speech path over websockets for low-latency feedback.
+            </p>
+            <ul class="card-meta">
+              <li>Wave2Vec2</li>
+              <li>FastAPI</li>
+              <li>Websockets</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <span class="card-tag">Generative AI</span>
+            <h3 class="card-title">Stable Diffusion pipeline &amp; GPU UI</h3>
+            <p class="card-body">
+              Custom diffusion workflows producing distinct outputs per prompt, paired with a
+              tailored web UI and FastAPI backend on dedicated GPU infra.
+            </p>
+            <ul class="card-meta">
+              <li>Stable Diffusion</li>
+              <li>GPU server</li>
+              <li>FastAPI</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <span class="card-tag">LLM integrations</span>
+            <h3 class="card-title">PDF intelligence chatbots</h3>
+            <p class="card-body">
+              Document Q&amp;A assistants using OpenAI models, LangChain orchestration, and vector
+              stores—deployed ready for cloud hosting on GCP.
+            </p>
+            <ul class="card-meta">
+              <li>OpenAI API</li>
+              <li>LangChain</li>
+              <li>Vector DB</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <span class="card-tag">Audio agents</span>
+            <h3 class="card-title">Pronunciation coaching with KIMI</h3>
+            <p class="card-body">
+              Agentic flow combining KIMI Audio and KIMI LLM to score Arabic Quran &amp; Qaida
+              pronunciation—complete with user history for progress tracking.
+            </p>
+            <ul class="card-meta">
+              <li>KIMI stack</li>
+              <li>Agent design</li>
+              <li>UX for feedback</li>
+            </ul>
+          </article>
+          <article class="card card--tall reveal">
+            <span class="card-tag">Mobile CV</span>
+            <h3 class="card-title">Real-time document edge detection</h3>
+            <p class="card-body">
+              CNN-based detector integrated with TensorFlow Lite inside an Android module—optimised
+              for live camera guidance and edge-local inference.
+            </p>
+            <ul class="card-meta">
+              <li>CNN</li>
+              <li>TFLite</li>
+              <li>Android</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <span class="card-tag">Earlier focus</span>
+            <h3 class="card-title">OCR, NER &amp; retail intelligence</h3>
+            <p class="card-body">
+              LayoutLM-based OCR with NER for grocery receipts—structured extraction from messy
+              real-world scans.
+            </p>
+            <ul class="card-meta">
+              <li>LayoutLM</li>
+              <li>NER</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <span class="card-tag">Detection &amp; segmentation</span>
+            <h3 class="card-title">Plant detection &amp; background removal</h3>
+            <p class="card-body">
+              YOLOv8 plant models on FastAPI; RMBG‑1.4 trained on COCO categories with a Flask API
+              for background removal—plus Tiny YOLOv3 experiments on preprocessed COCO.
+            </p>
+            <ul class="card-meta">
+              <li>YOLOv8</li>
+              <li>RMBG‑1.4</li>
+              <li>COCO</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="section-head reveal">
+          <span class="section-index">04</span>
+          <h2>Experience</h2>
+        </div>
+        <ol class="timeline">
+          <li class="timeline-item reveal">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-body">
+              <header class="timeline-head">
+                <h3>AI/ML Engineer — 9D Technologies</h3>
+                <time datetime="2023-09">Sep 2023 — Present</time>
+              </header>
+              <p class="timeline-loc">Punjab, Pakistan</p>
+              <p>
+                Agentic RAG, generative media, speech systems, LLM document bots, mobile vision,
+                and cloud APIs—owning models from training through deployment.
+              </p>
+            </div>
+          </li>
+          <li class="timeline-item reveal">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-body">
+              <header class="timeline-head">
+                <h3>Junior Software Engineer — AI DNA Micro</h3>
+                <time datetime="2023-01">Jan 2023 — Jun 2023</time>
+              </header>
+              <p class="timeline-loc">Irvine, California, United States</p>
+              <p>LayoutLM OCR, NER on receipts, and classical CV / detection workflows.</p>
+            </div>
+          </li>
+          <li class="timeline-item reveal">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-body">
+              <header class="timeline-head">
+                <h3>Jr AI Engineer — APPTRICK</h3>
+                <time datetime="2022-01">Jan 2022 — Dec 2022</time>
+              </header>
+              <p class="timeline-loc">Rawalpindi, Punjab</p>
+              <p>Applied ML delivery and model iteration in a product engineering setting.</p>
+            </div>
+          </li>
+          <li class="timeline-item reveal">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-body">
+              <header class="timeline-head">
+                <h3>Intern — Code Red Lab</h3>
+                <time datetime="2020-01">Jan 2020 — Dec 2020</time>
+              </header>
+              <p class="timeline-loc">Attock, Punjab</p>
+              <p>Foundational AI engineering exposure and early production habits.</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section id="education" class="section">
+        <div class="section-head reveal">
+          <span class="section-index">05</span>
+          <h2>Education</h2>
+        </div>
+        <ul class="edu-list">
+          <li class="edu-card reveal">
+            <h3>Master of Artificial Intelligence</h3>
+            <p>National University of Computer and Emerging Sciences (FAST‑NUCES)</p>
+            <p class="edu-dates">Sep 2021 — Dec 2023</p>
+          </li>
+          <li class="edu-card reveal">
+            <h3>Bachelor of Software Engineering</h3>
+            <p>COMSATS University Islamabad</p>
+            <p class="edu-dates">Sep 2016 — Aug 2020</p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="contact" class="section section-contact">
+        <div class="contact-panel reveal">
+          <div class="section-head section-head--inline">
+            <span class="section-index">06</span>
+            <h2>Let’s build something intelligent</h2>
+          </div>
+          <p class="contact-lead">
+            Open to collaborations on agents, RAG, speech, and cloud ML. Reach out with a problem
+            statement—I’ll reply with a concrete path to a prototype.
+          </p>
+          <div class="contact-links">
+            <a class="contact-link" href="mailto:haris.waqar444@gmail.com">haris.waqar444@gmail.com</a>
+            <a class="contact-link" href="tel:+923160556396">+92 316 0556396</a>
+            <a
+              class="contact-link"
+              href="https://www.linkedin.com/in/muhammad-haris-waqar-b58248292"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn profile</a
+            >
+          </div>
+          <p class="contact-foot">Islamabad, Pakistan · Available for remote roles worldwide</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Muhammad Haris Waqar. Crafted for clarity in the dark.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
